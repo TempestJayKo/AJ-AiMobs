@@ -23,7 +23,7 @@ execute as @e[tag=<project.name>.base] at @s as @e[tag=aj.<project.name>.root,li
 
 
 
-execute as @e[type=minecraft:warden,limit=1] at @s store result score @s dig run data get entity @e[type=minecraft:warden,limit=1] Brain{memories:{"minecraft:dig_cooldown":},value:{},ttl:{}}
+
 
 #get [Health]
 execute as @e[tag=<project.name>.base,limit=1,tag=given] run function <project.name>:aimob/private/get
