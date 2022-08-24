@@ -19,7 +19,7 @@ scoreboard players add $global ids 1
 #execute at @s run summon armor_stand ~ ~ ~ {Tags:["<project.name>.base","new"],Marker:1b,NoBasePlate:1b,Invisible:1b,Invulnerable:1b}
 #^ Armorstand summon
 #v Mob summon
-execute at @s run summon zombie ~ ~ ~ {Tags:["<project.name>.base","given","new"],Silent:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b,}]}
+execute at @s run summon zombie ~ ~ ~ {Tags:["<project.name>.base","given","new"],Silent:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:999999,ShowParticles:0b,PersistenceRequired:1b}]}
 execute at @e[tag=<project.name>.base,tag=new] run function <project.name>:summon/default
 execute as @e[tag=aj.<project.name>.root,sort=nearest,tag=!linked] run tag @e[tag=aj.<project.name>.root,sort=nearest,tag=!linked] add new
 
