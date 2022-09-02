@@ -17,7 +17,7 @@ execute as @e[tag=<project.name>.base,tag=moving] at @s as @e[tag=aj.<project.na
 
 
 #<attack_animation> Animation
-execute as @e[tag=<project.name>.base] at @s as @e[tag=aj.<project.name>.root,limit=1,sort=nearest] unless entity @s[tag=aj.<project.name>.anim.<attack_animation>] if entity @a[distance=..1.5] run function <project.name>:animations/<attack_animation>/play
+execute as @e[tag=<project.name>.base] at @s as @e[tag=aj.<project.name>.root,limit=1,sort=nearest] unless entity @s[tag=aj.<project.name>.anim.<attack_animation>] if entity @a[distance=..1.5,gamemode=!creative,gamemode=!spectator] run function <project.name>:animations/<attack_animation>/play
 execute as @e[tag=<project.name>.base] at @s as @e[tag=aj.<project.name>.root,limit=1,sort=nearest] if entity @s[tag=aj.<project.name>.anim.<attack_animation>] if entity @a[distance=1.8..] run function <project.name>:animations/<attack_animation>/stop
 execute as @e[tag=<project.name>.base] at @s as @e[tag=aj.<project.name>.root,limit=1,sort=nearest] if entity @s[tag=aj.<project.name>.anim.<attack_animation>] run function <project.name>:animations/<idle_animation>/pause
 
