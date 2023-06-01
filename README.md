@@ -23,7 +23,7 @@ How to install
 
 On most code editors if you highlight a text and press ctrl + f you will be given the option to change similer texts on the page shown.
 
-Replace the <project:name> text (Including the <>) to your project name.
+Replace the <"project:name"> text (Including the <>) to your project name.
 
 Replace the <walk_animation> with your walking animation name listed in the animate tab in BlokbBnch
 
