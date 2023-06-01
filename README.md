@@ -29,7 +29,7 @@ Replace the ``` <walk_animation> ``` with your walking animation name listed in 
 
 Replace the ``` <idle_animation> ``` with your idle animation name listed in the animate tab in BlokenbBenches
 
-Replace the ``` <attack_animation> ``` with your walking animation name listed in the animate tab in Blocbechers
+Replace the ``` <attack_animation> ``` with your attack animation name listed in the animate tab in Blocbechers
 
 
 If this doesnt get updated before or after Animated Java v0.3.10. 
