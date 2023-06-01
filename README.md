@@ -16,7 +16,7 @@ Ability to kill the mob and track its heath with
 /scoreboard objectives setdisplay sidebar mob.id
 
 ### This is not a datapack, this is a function file. 
-                                                                                 ### V aimob should go in this one 
+                                                                                         V aimob should go in this one 
 I would reccomend you to create a seperate datapack for all your Models and for your game datapack.
 
 How to install
