@@ -34,7 +34,9 @@ Replace the ``` <attack_animation> ``` with your walking animation name listed i
 
 If this doesnt get updated before or after Animated Java v0.3.10. 
 
-yell at me on discord or change all ``` "function <project:name>:aimob" ``` to ``` "function animated_java:<project:name>/aimob" ```
+yell at me on discord or change all ``` "function <project:name>:aimob" ``` to 
+
+``` "function animated_java:<project:name>/aimob" ```
 
 
 
